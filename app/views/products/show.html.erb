@@ -1,0 +1,10 @@
+<p>
+    <b>Name:</b>
+    <%= @product.name %>
+</p>
+
+<p>
+    <b>Price:</b>
+    <%= @product.price %>
+</p>
+<%= link_to 'Destroy', @product.destroy, :method => :destroy, :data => { :confirm => 'Are you sure?' } %>
